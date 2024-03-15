@@ -8,7 +8,13 @@
 <body>
 <?php
 //cmt ne 
-echo "hello <h1>worlkádasd</h1> ";
+$ten = "Phuc ne";
+$namsinh = 2003;
+echo $ten . $namsinh ."hello <h1>worlkádasd</h1> "
+
 ?>
 </body>
 </html>
+
+
+
