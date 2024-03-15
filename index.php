@@ -38,8 +38,15 @@ if($ten_nguoi_dung == "phuc"){
     echo "Người này tên là phúc";
 }
 else{
-    echo "Người này không phải tên phúc"
+    echo "Người này không phải tên phúc";
+
 }
+//step 13 - Chuỗi
+$Dodaicuachuoi ="Phucne";
+echo strlen($Dodaicuachuoi); //đếm từng kí tự
+
+$Demluongtu ="demluongtu ne";
+echo str_word_count($Demluongtu); //đếm lượng từ
 ?>
 </body>
 </html>
