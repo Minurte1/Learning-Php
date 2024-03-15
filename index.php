@@ -17,6 +17,18 @@ echo $ten . $namsinh ."hello <h1>worlkádasd</h1> ";
 define("tenn","phucne");
 echo "In hằng ra" . tenn;
 
+$a = 15;
+if( $a <10){
+    echo "a nho hon 10";
+}
+elseif ( $a<20){
+    echo "a nho hon 20";
+}
+elseif ($a< 30){
+    echo "a nho hon 30";
+}else{
+    echo "ulatr";
+}
 ?>
 </body>
 </html>
