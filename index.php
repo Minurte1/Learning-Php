@@ -63,6 +63,25 @@ $noiA = "Phúc";
 $noiB = "Nè";
 $noiA .=$noiB;
 echo $noiA;
+// Step 19 - Câu lệnh Switch
+$color = "màu đỏ";
+switch ($color) {
+    case 'màu đỏ':
+    echo "Màu này màu đỏ";
+    break;
+    case 'màu đen':
+        echo "Màu này màu đỏ";
+    break;
+    case 'màu xanh':
+        echo "Màu này màu đỏ";
+    break;    
+    
+    
+}
+// step 20 - Vòng lặp For
+for($i=0; $i<=10 ;$i++){
+    echo $i;
+}
 ?>
 </body>
 </html>
