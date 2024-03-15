@@ -47,6 +47,22 @@ echo strlen($Dodaicuachuoi); //đếm từng kí tự
 
 $Demluongtu ="demluongtu ne";
 echo str_word_count($Demluongtu); //đếm lượng từ
+
+// step 14 - Kiểm tra kiểu dữ liệu
+$checkKDL = "hihiphucne"; 
+var_dump($checkKDL); // output string(10) "hihiphucne"
+
+//Học PHP Bài 17 -Toán tử phần 2
+$bien_a = 10;
+$bien_b = 1;
+if($bien_a >1 or $bien_b ==1){
+    echo "Đúng"; //output Đúng
+}
+
+$noiA = "Phúc";
+$noiB = "Nè";
+$noiA .=$noiB;
+echo $noiA;
 ?>
 </body>
 </html>
