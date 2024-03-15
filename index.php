@@ -8,9 +8,14 @@
 <body>
 <?php
 //cmt ne 
+//ten bien
 $ten = "Phuc ne";
 $namsinh = 2003;
-echo $ten . $namsinh ."hello <h1>worlkádasd</h1> "
+echo $ten . $namsinh ."hello <h1>worlkádasd</h1> ";
+//hằng
+
+define("tenn","phucne");
+echo "In hằng ra" . tenn;
 
 ?>
 </body>
