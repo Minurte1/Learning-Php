@@ -178,6 +178,11 @@ for ($i29=0; $i29 < count($stepName29); $i29++) {
   echo print_r($mang31);
   rsort($mangchu31);
   echo print_r($mangchu31);
+
+  // step 32 - String sang Array
+  $a32= "27/01/2003";
+  $mang32 = explode("/",$a32);
+  var_dump($mang32);
 ?>
 </body>
 </html>
