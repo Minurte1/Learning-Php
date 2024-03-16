@@ -112,6 +112,13 @@ if(isset($a)){
 }else{
     echo "bien a khong ton tai";
 }
+// step  25 - Function
+
+function Step25(int $a25, int $b25 ){
+$tongstep25 = $a25 + $b25;
+return $tongstep25;
+}
+echo Step25(4,2)
 ?>
 </body>
 </html>
