@@ -89,6 +89,13 @@ while ($a <= 10) {
     echo $a;
     $a++;
 }
+// step 21 - Vòng lặp Do While
+
+$dowhile = 1;
+do{
+    echo $dowhile;
+    $dowhile++;
+}while($dowhile <=10)
 ?>
 </body>
 </html>
