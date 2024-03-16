@@ -188,7 +188,7 @@ for ($i29=0; $i29 < count($stepName29); $i29++) {
   $myArray33 = array("thuong3","viet nam3","2003");
 
   echo $Chuoi33 = implode(",",$myArray33);
-
+header('location: xuly.php');
 ?>
 </body>
 </html>
