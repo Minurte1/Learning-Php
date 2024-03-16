@@ -183,6 +183,12 @@ for ($i29=0; $i29 < count($stepName29); $i29++) {
   $a32= "27/01/2003";
   $mang32 = explode("/",$a32);
   var_dump($mang32);
+
+  // step  33 - Array sang String
+  $myArray33 = array("thuong3","viet nam3","2003");
+
+  echo $Chuoi33 = implode(",",$myArray33);
+
 ?>
 </body>
 </html>
