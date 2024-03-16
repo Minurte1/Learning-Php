@@ -120,6 +120,10 @@ return $tongstep25;
 }
 
 echo Step25(4,2);
+
+
+
+// step  27 - Array cơ bản
 $Namestep27 = array ("phuc", "hoang","ho");
 
 echo $Namestep27[0] . $Namestep27[1] .$Namestep27[2];
@@ -135,6 +139,18 @@ foreach($thongtinstep27 as $valuene27){
    }
    echo "<br>";
 }
+
+//step 28 - Làm việc với Array
+$name28  = array("thuong3","viet nam3","2003");
+//hienthiarray;
+print_r($name28);
+echo count($name28);
+// them phan tu trong mang
+$name28[2] = "phucne";
+print_r($name28);
+//xoa phan tu trong mang
+unset($name28[2]);
+print_r($name28);
 ?>
 </body>
 </html>
