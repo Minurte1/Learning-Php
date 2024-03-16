@@ -159,6 +159,10 @@ for ($i29=0; $i29 <=2; $i29++) {
   echo $stepName29[$i29];
   echo "<br>";
 }
+for ($i29=0; $i29 < count($stepName29); $i29++) { 
+    echo $stepName29[$i29];
+    echo "<br>";
+  }
 ?>
 </body>
 </html>
