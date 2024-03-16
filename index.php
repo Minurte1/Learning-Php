@@ -122,6 +122,9 @@ echo Step25(4,2)
 ?>
 </body>
 </html>
+<?php declare(strict_types=1);
 
+
+?>
 
 
