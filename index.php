@@ -118,13 +118,28 @@ function Step25(int $a25, int $b25 ){
 $tongstep25 = $a25 + $b25;
 return $tongstep25;
 }
-echo Step25(4,2)
+
+echo Step25(4,2);
+$Namestep27 = array ("phuc", "hoang","ho");
+
+echo $Namestep27[0] . $Namestep27[1] .$Namestep27[2];
+
+$thongtinstep27  = array(
+    array("thuong1","viet nam1","2003"),
+    array("thuong2","viet nam2","2003"),
+    array("thuong3","viet nam3","2003"),
+);
+foreach($thongtinstep27 as $valuene27){
+   foreach ($valuene27 as $value27){
+    echo $value27;
+   }
+   echo "<br>";
+}
 ?>
 </body>
 </html>
-<?php declare(strict_types=1);
 
 
-?>
+
 
 
