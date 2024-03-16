@@ -82,6 +82,13 @@ switch ($color) {
 for($i=0; $i<=10 ;$i++){
     echo $i;
 }
+// step 20 - Vòng lặp while
+
+$a = 1;
+while ($a <= 10) {
+    echo $a;
+    $a++;
+}
 ?>
 </body>
 </html>
