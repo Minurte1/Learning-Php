@@ -159,10 +159,25 @@ for ($i29=0; $i29 <=2; $i29++) {
   echo $stepName29[$i29];
   echo "<br>";
 }
+// step 30 - Vòng lặp For với Array p2
 for ($i29=0; $i29 < count($stepName29); $i29++) { 
     echo $stepName29[$i29];
     echo "<br>";
   }
+  // step  31 - Sắp xếp Array
+  $mang31 = array(4, 2, 3);
+  //sort sap xep theo thu tu tang dan
+  sort($mang31);
+  echo print_r($mang31);
+  $mangchu31 = array("AWC","A","AB");
+  sort($mangchu31);
+  echo print_r($mangchu31);
+
+  //rsort sap xep thu tu mang theo giam dan 
+  rsort($mang31);
+  echo print_r($mang31);
+  rsort($mangchu31);
+  echo print_r($mangchu31);
 ?>
 </body>
 </html>
