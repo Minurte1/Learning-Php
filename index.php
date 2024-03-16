@@ -95,7 +95,14 @@ $dowhile = 1;
 do{
     echo $dowhile;
     $dowhile++;
-}while($dowhile <=10)
+}while($dowhile <=10);
+
+// step 22 -  Vòng lặp Foreach
+
+$tenne22 = array('Phúc nè', 'Chấn nè ', 'Khang nè');
+foreach( $tenne22 as $valuene){
+    echo $valuene;
+}
 ?>
 </body>
 </html>
