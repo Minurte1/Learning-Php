@@ -103,6 +103,15 @@ $tenne22 = array('Phúc nè', 'Chấn nè ', 'Khang nè');
 foreach( $tenne22 as $valuene){
     echo $valuene;
 }
+
+// step 24 - Hàm isset()
+$a24 = 23;
+if(isset($a)){
+    echo "biến a tồn tại";
+
+}else{
+    echo "bien a khong ton tai";
+}
 ?>
 </body>
 </html>
