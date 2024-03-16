@@ -151,6 +151,14 @@ print_r($name28);
 //xoa phan tu trong mang
 unset($name28[2]);
 print_r($name28);
+
+//step 29 - Vòng lặp For với Array
+$stepName29 = array("thuong3","viet nam3","2003");
+
+for ($i29=0; $i29 <=2; $i29++) { 
+  echo $stepName29[$i29];
+  echo "<br>";
+}
 ?>
 </body>
 </html>
